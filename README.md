@@ -13,7 +13,8 @@ When a user start the app, a panel with settings info will be shown. Here user c
 
 ## Settings Control Panel
 ![GitHub Logo](pictures/settings_panel.png)
-Once user pressed Enter, a warning sound will advise user that **autopilot** feature has been deactivated. Here user can manage 3 "General", "FTP" and "Devices" settings. User must type the letter of settings and press enter.
+
+Once user pressed Enter, a warning sound will advise user that **autopilot** feature has been deactivated. Here user can manage "General", "FTP" and "Devices" settings. User must type the letter of settings and press enter.
 
 ## General Settings
 Here user can manage principal settings of application.
@@ -52,4 +53,4 @@ User must set destination path where backup file will be stored. It can be in lo
 If an external device path was set, user can decide if Backup Service will automatically unmount and mount the device, this feature could be useful in case of cyber attack. To do so, user must set Driver letter and Volume name.
 
 ## Auto backup
-Backup Service is not provided with an autostart feature, but user can take advantage of **Autopilot**. Since the app will automatically start the backup, a user can set by Windows Task Scheduler. After 10 seconds from app startup the backup will begin.
+Backup Service is not provided with an autostart feature, but user can take advantage of **Autopilot**. Since the app will automatically start the backup, a user can set by Windows Task Scheduler time and data. After 10 seconds from app startup the backup will begin.
